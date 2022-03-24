@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <head>
-    <title>Random Page 4</title>
+    <!--Import Font-->
+    <link href="https://fonts.cdnfonts.com/css/gotham?styles=17581,17582,17583,17584,17585,17587,17586,17579,17588,17580,17589,17591,17592,17595,17590,17593,17594,17596" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <!--Import materialize.css via CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Home</title>
 </head>
 <body>
+    <!--About Dropdown Structure-->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="html/about/about.html">About the Hackathon</a></li>
+        <li><a href="html/about/timeline.html">Timeline</a></li>
+        <li><a href="html/about/faqs.html">FAQs</a></li>
+        <li><a href ="html/about/contact.html">Contact</a></li>
+      </ul>
 
+    <!--Resources Dropdown Structure-->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="html/resources/about.html">Something</a></li>
+        <li><a href="html/resources/timeline.html">Something</a></li>
+        <li><a href="html/resources/faqs.html">Something</a></li>
+      </ul>
+
+    <!--Navigation Bar-->
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper nav">
+            <a href="index.html" class="brand-logo nav-logo">Hackathon</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">About</a></li>
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Hacker Resources</a></li>
+              <li><a class="waves-effect waves-light btn">Participate</a></li>
+              <li><a href="html/sources.html">Sources</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 </body>
 <footer>
     
