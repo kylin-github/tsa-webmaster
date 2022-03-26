@@ -40,6 +40,35 @@ footer {
     justify-content: space-around;
 }
 
+.box-row {
+    margin-bottom: 0;
+}
+
+/* .box-row .col {
+    padding: 0 1rem;
+} */
+
+.box-row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height:200px;
+} 
+
+.box-row h5 {
+    text-align: center;
+    color: white;
+}
+
+.box-row span {
+    font-size: 2em;
+}
+
+.box-row li {
+    list-style-type: circle !important;
+}
+
 .btn, .btn-large {
     background-color: rgb(0,31,63);
     border-radius: 10px;
@@ -47,6 +76,14 @@ footer {
 
 .btn:hover, .btn-large:hover {
     background-color: rgb(0,51,102);
+}
+
+.dark-blue {
+    background-color: rgb(0,12,24);
+}
+
+.darker-blue {
+    background-color: rgb(0,2,4);
 }
 
 .dark-gray {
@@ -61,6 +98,10 @@ footer {
 
 .footer-links ul {
     margin-top: 0;
+}
+
+.prizes div {
+    justify-content: flex-start;
 }
 
 .section-btn {
@@ -109,7 +150,7 @@ footer {
     min-width: 200px;
 }
 
-.header-title-text {
+.header-title-text-index {
     text-align: left;
     color: white;
     font-size: 5em;
@@ -127,17 +168,29 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+}
+
+.header-title-text {
+    color: white;
+    font-size: 5em;
+    line-height: 1.25em;
 }
 
 /* Specific styles for each image header */
 
 .mega-image-index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/circuit_board.jpg");
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     column-gap: 40px;
+}
+
+.mega-image-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/computer.jpg");
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 700px)  {
