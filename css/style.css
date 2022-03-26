@@ -33,8 +33,31 @@ h2, h3 {
     font-weight: 400;
 }
 
+.btn, .btn-large {
+    background-color: rgb(0,64,128);
+    border-radius: 10px;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: rgb(0,120,239);
+}
+
+/****** index.html Header Styles ******/
+
 .header-btn {
     margin-top: 1.25em;
+    /* width: 200px; */
+    width: 100%;
+}
+
+.header-dates{
+    background-color: #221D20;
+    border-radius: 10px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-items {
@@ -42,21 +65,19 @@ h2, h3 {
 }
 
 .header-other-text {
-    text-align: right;
     color: white;
     font-size: 1.25em;
     font-weight: 500;
-    margin-top: 50%;
+    text-align: center;
 }
 
 .header-right{
-    float: right;
     margin-right: 5%;
-    /* margin-top: 15%; */
+    width: 25%;
+    min-width: 200px;
 }
 
 .header-title-text {
-    float: left;
     text-align: left;
     color: white;
     font-size: 5em;
@@ -64,6 +85,8 @@ h2, h3 {
     line-height: 1.25em;
     margin-left: 5%;
 }
+
+/****** End index.html Header Styles ******/
 
 /* Styles for all image headers */
 .mega-image {
@@ -78,10 +101,32 @@ h2, h3 {
 
 .mega-image-index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/circuit_board.jpg");
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+@media only screen and (max-width: 700px)  {
+    /* Change header format to a centered column */
+    .header-right{
+        margin-right: 0;
+    }
+    
+    .header-title-text {
+        margin-left: 0;
+    }
+    
+    .mega-image-index {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }
 
 .nav {
-    background-color: #000080;
+    background-color: rgb(0,26,51);
 }
 
 .nav-logo {
