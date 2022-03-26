@@ -33,13 +33,6 @@ h2, h3 {
     font-weight: 400;
 }
 
-footer {
-    background-color: rgb(0,12,24);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .box-row {
     margin-bottom: 0;
 }
@@ -88,16 +81,6 @@ footer {
 
 .dark-gray {
     background-color: #0B0A0A;
-}
-
-.footer-links {
-    display: flex;
-    column-gap: 35px;
-    /* column-gap: 30%; */
-}
-
-.footer-links ul {
-    margin-top: 0;
 }
 
 .prizes div {
@@ -252,8 +235,35 @@ footer {
 .subheader {
     color:gray !important;
 }
-
 /****** End Navbar Styles ******/
+
+/****** Footer Styles ******/
+footer {
+    background-color: rgb(0,12,24);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin: 5%;
+}
+
+.footer-section h5, .footer-section h6 {
+    margin-top: 0.5rem;
+}
+
+.footer-links {
+    display: flex;
+    /* column-gap: 35px; */
+    column-gap: 10%;
+}
+
+.footer-links ul {
+    margin-top: 0;
+}
+
+/****** End Footer Styles ******/
 
 .parallax-container {
     height: 90%;
