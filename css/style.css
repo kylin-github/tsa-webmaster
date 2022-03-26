@@ -199,8 +199,9 @@ footer {
         margin-right: 0;
     }
     
-    .header-title-text {
+    .header-title-text-index {
         margin-left: 0;
+        font-size: 4.5em;
     }
     
     .mega-image-index {
@@ -208,15 +209,51 @@ footer {
         flex-flow: row wrap;
         justify-content: center;
     }
+
+    .header-title-text {
+        font-size: 4.5em;
+    }
 }
 
-.nav {
+/****** Navbar Styles ******/
+
+.nav, .sidenav,.dropdown-content {
     background-color: rgb(0,12,24);
 }
 
 .nav-logo {
     margin-left: 10px;
 }
+
+.sidenav .nav-logo {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.sidenav li a {
+    color: white;
+}
+
+.dropdown-content {
+    min-width: 20%;
+}
+
+.dropdown-content li a {
+    color: white;
+}
+
+/*Styles for sidenav dividers*/
+.sidenav .divider {
+    color: lightgray;
+    width: 90%;
+    margin-left: 5%
+}
+
+.subheader {
+    color:gray !important;
+}
+
+/****** End Navbar Styles ******/
 
 .parallax-container {
     height: 90%;

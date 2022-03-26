@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--Import Font-->
     <link href="https://fonts.cdnfonts.com/css/gotham?styles=17581,17582,17583,17584,17585,17587,17586,17579,17588,17580,17589,17591,17592,17595,17590,17593,17594,17596" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
@@ -33,6 +35,7 @@
       <nav>
         <div class="nav-wrapper nav">
           <a href="../../index.html" class="brand-logo nav-logo">Hackathon</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">About</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Hacker Resources</a></li>
@@ -42,6 +45,23 @@
         </div>
       </nav>
     </div>
+    <!--Side Navigation Bar for mobile-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="../../index.html" class="brand-logo nav-logo">Hackathon</a></li>
+      <li><a class="subheader">About</a></li>
+        <li><a href="about.html">About the Hackathon</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href ="contact.html">Contact</a></li>
+      <li><div class="divider"></div></li>
+        <li><a class="subheader">Hacker Resources</a></li>
+        <li><a href="../resources/about.html">Something</a></li>
+        <li><a href="../resources/timeline.html">Something</a></li>
+        <li><a href="../resources/faqs.html">Something</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="../sources.html">Sources</a></li>
+      <li><a class="waves-effect waves-light btn">Participate</a></li>
+    </ul>  
 
     <div class="parallax-container mega-image mega-image-about">
       <h1 class="header-title-text">About the Hackathon</h1>
@@ -116,6 +136,13 @@
         </div>
       </div>
     </footer>
+
+    <!--JavaScript & JQuery CDN links at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import custom javascript-->
+    <script src="../../js/scripts.js"></script>
 
 </body>
 <footer>

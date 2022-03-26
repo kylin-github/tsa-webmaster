@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--Import Font-->
     <link href="https://fonts.cdnfonts.com/css/gotham?styles=17581,17582,17583,17584,17585,17587,17586,17579,17588,17580,17589,17591,17592,17595,17590,17593,17594,17596" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
@@ -31,17 +33,35 @@
     <!--Navigation Bar-->
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper nav">
+        <div class="nav-wrapper nav white-text">
           <a href="index.html" class="brand-logo nav-logo">Hackathon</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">About</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Hacker Resources</a></li>
-            <li><a class="waves-effect waves-light btn">Participate</a></li>
             <li><a href="html/sources.html">Sources</a></li>
+            <li><a class="waves-effect waves-light btn">Participate</a></li>
           </ul>
         </div>
       </nav>
     </div>
+    <!--Side Navigation Bar for mobile-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html" class="brand-logo nav-logo">Hackathon</a></li>
+      <li><a class="subheader">About</a></li>
+        <li><a href="html/about/about.html">About the Hackathon</a></li>
+        <li><a href="html/about/timeline.html">Timeline</a></li>
+        <li><a href="html/about/faqs.html">FAQs</a></li>
+        <li><a href ="html/about/contact.html">Contact</a></li>
+      <li><div class="divider"></div></li>
+        <li><a class="subheader">Hacker Resources</a></li>
+        <li><a href="html/resources/about.html">Something</a></li>
+        <li><a href="html/resources/timeline.html">Something</a></li>
+        <li><a href="html/resources/faqs.html">Something</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="html/sources.html">Sources</a></li>
+      <li><a class="waves-effect waves-light btn">Participate</a></li>
+    </ul>  
 
     <div class="parallax-container mega-image mega-image-index">
       <div><h1 class="header-title-text-index">Blah Blah <br>Hackathon</h1></div>
@@ -70,7 +90,7 @@
         <h5>Over <br><br><span>$5,000</span><br><br> in Prizes</h5></div>
       <div class="col m3 s6" style="background-color: rgb(0,0,51)"><h5><span>6</span><br><br> Guest Speakers</h5></div>
     </div>
-    
+
     <div class="section white">
       <div class="row container">
         <h2 class="header">Parallax</h2>
@@ -99,6 +119,13 @@
         </div>
       </div>
     </footer>
+
+    <!--JavaScript & JQuery CDN links at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import custom javascript-->
+    <script src="js/scripts.js"></script>
 
 </body>
 <footer>
