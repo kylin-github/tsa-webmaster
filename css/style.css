@@ -84,6 +84,51 @@ h2, h3, h5 {
     background-color: #0B0A0A;
 }
 
+.list-section {
+    padding: 0.5rem 1.25rem;
+}
+
+.list-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.list-section .left {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-section .right {
+    width: 85%;
+}
+
+.list-section img {
+    width: 100%;
+}
+
+.list-section i {
+    font-size: 5rem;
+}
+
+.list-section .white {
+    background-color: #FAF9F6;
+    border-radius: 10px;
+}
+
+/* .list-section img, .list-section i {
+    background-color: #FAF9F6;
+    padding: 0.5rem;
+    border-radius: 5px;
+} */
+
+.list-section .section-header {
+    text-align: left;
+}
+
 .prizes .col {
     justify-content: flex-start;
 }
@@ -188,6 +233,12 @@ h2, h3, h5 {
 
 .mega-image-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/computer.jpg");
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-image-hacker-resources {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/hacker_resources.jpg");
     justify-content: center;
     align-items: center;
 }
