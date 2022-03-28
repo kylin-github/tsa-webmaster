@@ -304,6 +304,62 @@ h2, h3, h5 {
 }
 /****** End Navbar Styles ******/
 
+/****** Index.html Sponsors Styles ******/
+
+.sponsors img {
+    height: 7rem;
+}
+
+.sponsors .by-width {
+    height: auto;
+    width: 15rem;
+}
+
+.sponsors .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 6rem;
+}
+
+@media only screen and (max-width: 750px)  {
+    /* Decrease sponsor image sizes */
+    .sponsors img {
+        height: 6rem;
+    }
+
+    .sponsors .by-width {
+        height: auto;
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 525px)  {
+    /* Decrease sponsor image sizes */
+    .sponsors img {
+        height: 3rem;
+    }
+
+    .sponsors .by-width {
+        height: auto;
+        width: 6rem;
+    }
+}
+
+@media only screen and (max-width: 300px)  {
+    /* Decrease sponsor image sizes */
+    .sponsors img {
+        height: 2.5rem;
+    }
+
+    .sponsors .by-width {
+        height: auto;
+        width: 5.5rem;
+    }
+}
+
+/****** End Index.html Sponsors Styles ******/
+
 /****** Footer Styles ******/
 footer {
     background-color: rgb(0,12,24);
