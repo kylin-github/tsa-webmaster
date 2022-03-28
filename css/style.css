@@ -28,7 +28,7 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2, h3, h5 {
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
@@ -289,6 +289,42 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/****** Header Blocks for Speakers ******/
+.person {
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(31, 47, 170, 0.74)), url("../images/coolpic.jpg");
+}
+.mega-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* Format images */
+.page-img {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    max-height: 600px;
+    opacity: 0;
+    transform: translate(4em) rotateZ(-5deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+        opacity .3s .25s ease-out;
+    will-change: transform, opacity;
+    border: 1em solid rgb(0, 0, 0);
+    border-radius: .25em;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+}
+
+
 
 /* .nav ul {
     list-style-type: none;
