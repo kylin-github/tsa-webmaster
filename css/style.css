@@ -46,7 +46,6 @@ h2, h3 {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    height:200px;
 } 
 
 .box-row h5 {
@@ -60,6 +59,7 @@ h2, h3 {
 
 .box-row li {
     list-style-type: circle !important;
+    list-style-position: inside;
 }
 
 .btn, .btn-large {
@@ -83,7 +83,7 @@ h2, h3 {
     background-color: #0B0A0A;
 }
 
-.prizes div {
+.prizes .col {
     justify-content: flex-start;
 }
 
@@ -96,6 +96,12 @@ h2, h3 {
 .section-header {
     color: white;
     text-align: center;
+}
+
+@media only screen and (min-width: 993px) {
+    .thinner {
+        width: 50%;
+    }
 }
 
 /****** index.html Header Styles ******/
@@ -158,6 +164,15 @@ h2, h3 {
     color: white;
     font-size: 5em;
     line-height: 1.25em;
+}
+
+.page-title {
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: auto;
+    width: 90%;
 }
 
 /* Specific styles for each image header */
@@ -246,7 +261,8 @@ footer {
 }
 
 .footer-section {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .footer-section h5, .footer-section h6 {
