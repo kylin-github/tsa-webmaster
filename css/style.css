@@ -176,6 +176,17 @@ a.anchor {
     }
 }
 
+@media only screen and (max-width: 600px)  {
+    .navbar-fixed .nav-logo {
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 360px)  {
+    .navbar-fixed .nav-logo {
+        font-size: 0.8rem;
+    }
+}
+
 .prizes .col {
     justify-content: flex-start;
 }
