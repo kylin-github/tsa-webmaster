@@ -33,6 +33,14 @@ h2, h3, h5 {
     font-weight: 400;
 }
 
+/* Align anchor links right below navbar */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -64px;
+    visibility: hidden;
+}
+
 .box-row {
     margin-bottom: 0;
 }
@@ -70,6 +78,10 @@ h2, h3, h5 {
 
 .btn:hover, .btn-large:hover {
     background-color: rgb(0,51,102);
+}
+
+.center-text {
+    text-align: center;
 }
 
 .dark-blue {
@@ -153,6 +165,10 @@ h2, h3, h5 {
 .section-header {
     color: white;
     text-align: center;
+}
+
+.timeline .row {
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 993px) {
