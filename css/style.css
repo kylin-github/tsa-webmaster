@@ -57,13 +57,17 @@ a.anchor {
     min-height: 200px;
 } 
 
+.prizes .col {
+    display: block;
+}
+
 .box-row h5 {
     text-align: center;
     color: white;
 }
 
 .box-row span {
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .box-row li {
