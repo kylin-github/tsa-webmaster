@@ -464,6 +464,12 @@ footer {
     width: 5rem;
 }
 
+@media only screen and (max-width: 400px)  {
+    .footer-links a {
+        font-size: 12px;
+    }
+}
+
 /****** End Footer Styles ******/
 
 .parallax-container {
