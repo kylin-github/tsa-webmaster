@@ -84,6 +84,30 @@ a.anchor {
     text-align: center;
 }
 
+.collapsible {
+    border: none;
+}
+
+.collapsible-header {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collapsible-header i {
+    margin-left: 15px;
+    float: right;
+}
+
+.collapsible-body {
+    border: 5px solid rgb(0,2,4);
+}
+
+.collapsible-header .less {
+    display: none;
+}
+
 .dark-blue {
     background-color: rgb(0,12,24);
 }
