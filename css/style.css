@@ -104,6 +104,10 @@ a.anchor {
     float: right;
 }
 
+.collapsible-header .section-header {
+    text-align: left;
+}
+
 .collapsible-body {
     border: 5px solid rgb(0,2,4);
 }
